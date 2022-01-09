@@ -1,0 +1,21 @@
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    border: none;
+    padding: 10px;
+}
+h3{
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+color: #102746;
+}
+@media (max-width: 480px){
+  .gallery{
+      display: grid;
+  }  
+}

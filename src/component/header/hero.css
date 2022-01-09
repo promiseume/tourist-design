@@ -1,0 +1,99 @@
+.hero{
+   color: #ffff;
+   
+}
+.hero h3{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #FFFFFF;
+  
+}
+.hero p{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  color: #ffff;
+}
+.header-text{
+    padding: 100px;
+}
+.list button{
+    background-color: rgba(27, 125, 255, 1);
+    color: #ffff;
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+height: 48px;
+width: 120px;
+left: 0px;
+top: 0px;
+border: 0px;
+}
+.list button:hover{
+  background-color: #ffff;
+  color: rgba(27, 125, 255, 1);
+}
+.list .search-line{
+  font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+}
+ #fname .input input[type=text] {
+  border: none;
+  border-bottom: 1px solid #BFC0C5;
+  width: 100%;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.search-line img{
+  padding: 7px;
+  height: 25px;
+}
+@media (max-width: 480px){
+  .hero h3{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 40px;
+    color: #FFFFFF;
+    
+  }
+  .header-text{
+    padding: 20px;
+}
+.hero p{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+.list{
+  display: grid;
+  padding-top: 20px;
+  color: #ffff;
+}
+.list .search-line{
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+padding-top: 40px;
+padding-bottom: 50px;
+}
+}

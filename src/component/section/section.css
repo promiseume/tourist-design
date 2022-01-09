@@ -1,0 +1,81 @@
+.section{
+    display: flex;
+    justify-content: space-between;
+}
+.section h4{
+    font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+padding-top: 20px;
+line-height: 34px;
+color: #000000;
+
+}
+.benefit{
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    background-color: #fff;
+    position: absolute;
+  width: 1100px;
+  height: 444px;
+  left: 67px;
+  top: 739px;
+  padding: 20px;
+}
+.benefit h3{
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+color: #102746;
+}
+.benefit img{
+    height: 58px;
+    width: 58px;
+}
+.section p{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+height: 72px;
+line-height: 24px;
+}
+a:not([href]):not([class]){
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #006DFE;
+}
+@media (max-width: 480px){
+    .benefit{
+      width: 380px;
+      height: 444px;
+      left: 27px;
+      top: 739px;
+      padding: 20px;
+    }
+    .section h4{
+        font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 14px;
+    color: #000000;
+    }
+    .section p{
+        font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    height: 72px;
+    line-height: 13px;
+    }
+    .support{
+        padding: 10px;
+    }
+}

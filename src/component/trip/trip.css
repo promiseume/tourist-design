@@ -1,0 +1,52 @@
+.city{
+    display: flex;
+    justify-content: space-between;
+}
+.city img{
+    padding: 5px;
+}
+.trip{
+top: 190px;
+height: 935px;
+background-color: #ffff;
+position: relative;
+padding: 10px;
+}
+.trip h3{
+font-family: Lato;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+color: #102746;
+}
+.trip-header{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    border: 1px solid #006DFE;
+}
+@media (max-width: 480px){
+    .trip h3{
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 32px;
+        color: #102746;
+        } 
+        a:not([href]):not([class]){
+            font-size: 10px;
+            padding-top: 10px;
+        }
+        .city{
+            display: grid;
+        }
+        .trip{
+            top: 190px;
+            height: 1800px;
+            position: relative;
+            padding: 9px;
+            }
+}
