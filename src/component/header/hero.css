@@ -69,6 +69,10 @@ line-height: 24px;
 }
 .form-control:focus{
   background-color: transparent;
+  border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
 }
 
 .search-line img{
