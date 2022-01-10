@@ -17,8 +17,3 @@ body {
 .header Section{
  background-color: #F2F2F2;
 }
-@media (max-width: 480px){
-  .header{
-    height: 20000px;
-  }
-}

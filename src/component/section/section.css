@@ -52,10 +52,10 @@ a:not([href]):not([class]){
 }
 @media (max-width: 480px){
     .benefit{
-      width: 380px;
+      width: 390px;
       height: 444px;
       left: 27px;
-      top: 739px;
+      top: 799px;
       padding: 20px;
     }
     .section h4{
