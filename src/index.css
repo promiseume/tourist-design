@@ -4,10 +4,10 @@ body {
   overflow-x: hidden;
 }
 .header{
-  background-image: url('./image/Bimage.png') ;
-  height: 100vh;
+  background-image: url('./image/Bimage.png');
+  background:linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%),url('./image/Bimage.png');
   filter: drop-shadow(0px 4px 4px #006DFE);
-  box-shadow: rgba(0, 109, 254, 1);
+  overflow-x: hidden;
   height: 989px;
   left: -28px;
   top: 0px;
@@ -16,4 +16,9 @@ body {
 }
 .header Section{
  background-color: #F2F2F2;
+}
+@media (max-width: 480px){
+  .header{
+    height: 20000px;
+  }
 }

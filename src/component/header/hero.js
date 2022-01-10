@@ -12,11 +12,11 @@ export default function Hero() {
             <div className='list'>
                 <div className='search-line'>
                 <p><img src={oval}/>What would you like to do?</p>
-                <input className='input' type="text" id="fname"></input>
+                <input type="text" class="form-control no-border" id="text"/>
                 </div>
                 <div className='search-line'>
                 <p> <img src={oval}/> Where do you like to go?</p>
-                <input className='input' type="text" id="fname"></input>
+                <input type="text" class="form-control no-border" id="text"/>
                 </div>
             <button>Search</button>
             </div>

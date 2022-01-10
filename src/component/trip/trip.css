@@ -26,6 +26,7 @@ color: #102746;
 }
 .line{
     border: 1px solid #006DFE;
+    width: 250px;
 }
 @media (max-width: 480px){
     .trip h3{

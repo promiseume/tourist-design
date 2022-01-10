@@ -14,7 +14,7 @@
 .hero p{
   font-family: Lato;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
 }
@@ -52,13 +52,11 @@ font-weight: 500;
 font-size: 18px;
 line-height: 24px;
 }
- #fname .input input[type=text] {
-  border: none;
-  border-bottom: 1px solid #BFC0C5;
-  width: 100%;
-  margin: 8px 0;
-  box-sizing: border-box;
+.no-border {
+  border: 0;
+  box-shadow: none; 
 }
+
 
 .search-line img{
   padding: 7px;
